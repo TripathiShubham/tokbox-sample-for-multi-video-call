@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> OpenTok Getting Started </title>
+    <link href="css/app.css" rel="stylesheet" type="text/css">
+<script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+    <script src="https://static.opentok.com/v2/js/opentok.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <style>
+        #userList li{
+            list-style: none;
+            width: 405px;
+            padding: 10px;
+            float: left;
+        }
+        #userList .subscriberVideo {
+            height: 265px;
+            width: 400px;
+            border: 4px solid #fff;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div id="videos">
+        <ul id="userList">
+
+
+        </ul>
+    
+    </div>
+
+    <script type="text/javascript" src="js/sampleconfig.js"></script>
+    <script type="text/javascript" src="js/app2.js"></script>
+</body>
+
+</html>
